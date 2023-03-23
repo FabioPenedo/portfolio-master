@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" />
+    <script src="https://kit.fontawesome.com/ef2c46f17f.js" crossorigin="anonymous"></script>
+    <title>Fábio Penedo</title>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == "flex") {
+                    document.querySelector(".menu nav ul").style.display = "none";
+                } else {
+                    document.querySelector(".menu nav ul").style.display = "flex";
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo"><img src="./assets/images/logo.png" alt=""></div>
+            <div class="menu">
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#sobre-mim">Sobre</a></li>
+                        <li><a href="#conhecimentos">Conhecimentos</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="mailto:fabiopenedo21@gmail.com" class="menu-buttom">Email</a></li>
+                        <li><a href="https://wa.me/31989288521" target="_blank" class="menu-buttom">Whatsapp</a></li>
+                        <li><a href="https://github.com/FabioPenedo" target="_blank"><i class="fa fa-github"aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/fabiopenedo/" target="_blank"><i class="fa fa-linkedin-square"aria-hidden="true"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="banner">
+            <div class="container">
+                <div class="banner">
+                    <div class="banner-esquerda">
+                        <p>Olá Mundo! <span>&#128075</span> Meu nome é Fábio</p>
+                        <h1>Fábio Penedo</h1>
+                        <h2>Desenvolvedor</h2>
+                        <p>Programador Web com foco no ecossistema do JavaScript.</p>
+                        <a href="#sobre-mim" class="buttom">Saiba mais</a>
+                    </div>
+                    <div class="banner-direita">
+                        <img src="./assets/images/avatar.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="icone-rolagem">
+               <img src="./assets/images/mouse.png" alt="">
+            </div>
+        </section>
+
+        <section id="sobre-mim">
+            <div class="container">
+                <div class="sobre-mim">
+                    <div class="sobre-mim-esquerda">
+                        <img src="./assets/images/eu.png">
+                    </div>
+                    <div class="sobre-mim-direita">
+                        <div class="titulo">
+                            <p>Quem sou eu</p>
+                            <h1>Sobre mim</h1>
+                        </div>
+                        <p>Meu foco é o desenvolvimento web com HTML, CSS, JavaScript, React e Node.
+                        </br></br>
+                        Estou sempre em constante aprendizado, procuro sempre obter mais experiências e muito aprendizado através de projetos.
+                        Sinta-se livre para me acompanhar e entrar em contato comigo! 🚀
+                        </p>
+                        <a href="https://drive.google.com/file/d/1Y99SGyat8vYtzaBLSX75fhJZqTL4t-ma/view?usp=share_link" target="_blank" class="buttom">Download CV</a></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conhecimentos">
+            <div class="container">
+                <div class="conhecimentos">
+                    <div class="titulo">
+                        <p>O que estou estudando</p>
+                        <h1>Conhecimentos</h1>
+                    </div>
+                    <div class="conhecimentos-cards">
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/html_icon.png">
+                            <h2>HTML</h2>
+                            <p>HTMl é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
+                            </div>            
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/css_icon.png">
+                            <h2>CSS</h2>
+                            <p>O CSS é uma linguagem de folhas de estilos que é utilizada para definir como os documentos escritos na linguagem de marcação HTML.</p>
+                            </div>   
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/js_icon.png">
+                            <h2>Javascript</h2>
+                            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                            </div>   
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/typescript_icon.png">
+                            <h2>Typescript</h2>
+                            <p>TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.</p>
+                            </div>   
+                        </div>
+
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/node_icon.png">
+                            <h2>Node.js</h2>
+                            <p>Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.</p>
+                            </div>   
+                        </div>
+
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/react_icon.png">
+                            <h2>React.js</h2>
+                            <p>O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. É mantido pelo Facebook.</p>
+                            </div>   
+                        </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+        <section id="projetos">
+            <div class="container">
+                <div class="projetos">
+                    <div class="titulo">
+                        <p>Meus projetos</p>
+                        <h1>Projetos</h1>
+                    </div>
+                    <div class="projetos-cards">
+                        <div class="projetos-card">
+                            <img src="./assets/images/patient-list.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Patient-List</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria node">Nodejs</div>
+                                        <div class="projeto-card-desc-categoria express">Express</div>
+                                        <div class="projeto-card-desc-categoria typescript">Typescript</div>
+                                        <div class="projeto-card-desc-categoria postgresql">PostgreSQL</div>
+                                    </div>  
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>O Patient-list é uma api para um sistema de funcionarios e pacientes.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/FabioPenedo/patient-list" target="_blank"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/react-album.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>React-album</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria react">React</div>
+                                        <div class="projeto-card-desc-categoria typescript">Typescript</div>
+                                    </div>  
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>React-album é um exemplo de galeria de fotos consumindo api jsonplaceholder</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/FabioPenedo/react-album" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="https://react-album-nu.vercel.app" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/node-petz.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Node-Petz</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria node">Nodejs</div>
+                                        <div class="projeto-card-desc-categoria express">Express</div>
+                                        <div class="projeto-card-desc-categoria typescript">Typescript</div>
+                                        <div class="projeto-card-desc-categoria javascript">JavaScript</div>
+                                    </div>
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Node petz é um sistema de adoção de petz</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/FabioPenedo/nodets-petz" target="_blank"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/products.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Products</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria node">Nodejs</div>
+                                        <div class="projeto-card-desc-categoria express">Express</div>
+                                        <div class="projeto-card-desc-categoria react">React</div>
+                                        <div class="projeto-card-desc-categoria typescript">Typescript</div>
+                                        <div class="projeto-card-desc-categoria mysql">MySQL</div>
+                                    </div>  
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Products é um sistema de registro de produtos, por nome, preço, inventario e descrição.</p>                                  </p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/FabioPenedo/productsfrontend" target="_blank"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/clima.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Dados Climáticos</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria html">HTML</div>
+                                        <div class="projeto-card-desc-categoria css">CSS</div>
+                                        <div class="projeto-card-desc-categoria javascript">JavaScript</div>
+                                    </div>  
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Dados climaticos é um sistema de exibição de clima por região.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/FabioPenedo/DadosClimaticos" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="https://fabiopenedo.github.io/DadosClimaticos/" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/chat.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Chat Node</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria node">Nodejs</div>
+                                        <div class="projeto-card-desc-categoria express">Express</div>
+                                        <div class="projeto-card-desc-categoria typescript">Typescript</div>
+                                    </div>  
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Esse projeto tem como objetivo simular uma sala de chat online.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/FabioPenedo/chat-node" target="_blank"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/quadro-desenho.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Quadro Desenho</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria html">HTML</div>
+                                        <div class="projeto-card-desc-categoria css">CSS</div>
+                                        <div class="projeto-card-desc-categoria javascript">JavaScript</div>
+                                    </div>
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Um quadro onde é possivel desenhar com algumas cores.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/FabioPenedo/QuadroDesenho" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="https://fabiopenedo.github.io/QuadroDesenho/" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/starbucks.png" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>StarBucks</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria html">HTML</div>
+                                        <div class="projeto-card-desc-categoria css">CSS</div>
+                                    </div>
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Landing page do StarBucks.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/FabioPenedo/StarBucks" target="_blank"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
