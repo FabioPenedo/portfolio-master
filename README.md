@@ -1,13 +1,6 @@
 <h1 align="center"> Portifólio Pessoal</h1>
 
-
-
-
-
-</p>
-<p align="center">
-<img src="assets/images/screenvideo.gif" align="center" style="border-radius: 10px" />
-</p>
+![pc](https://user-images.githubusercontent.com/82732587/227095226-b76b3c9c-00e1-4e98-beee-856f5c0a6fdd.gif)
 
 
 ## Tecnologias 🚀 
